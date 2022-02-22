@@ -25,7 +25,7 @@ export default function NavigationScreen() {
           options={{
             tabBarIcon: ({ focused }) =>
               focused ? (
-                <MaterialIcons name="history" size={24} color="#777" />
+                <MaterialIcons name="history" size={24} color="#000" />
               ) : (
                 <MaterialIcons name="history" size={24} color="#777" />
               ),
@@ -38,7 +38,7 @@ export default function NavigationScreen() {
           options={{
             tabBarIcon: ({ focused }) =>
               focused ? (
-                <Entypo name="circle" size={24} color="#777" />
+                <Entypo name="circle" size={24} color="#000" />
               ) : (
                 <Entypo name="circle" size={24} color="#777" />
               ),
@@ -54,7 +54,7 @@ export default function NavigationScreen() {
                 <Ionicons
                   name="information-circle-sharp"
                   size={24}
-                  color="#777"
+                  color="#000"
                 />
               ) : (
                 <Ionicons
